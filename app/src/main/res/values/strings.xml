@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">AppliEDF</string>
+    <string name="titre">MENU EDF</string>
+    <string name="buttonNvReleve">Nouveau Relevé</string>
+    <string name="buttonListeReleves">Liste Relevés</string>
+    <string name="buttonNvClient">Nouveau Client</string>
+    <string name="buttonListeClients">Liste Clients</string>
+    <string name="menu_saisir">saisir</string>
+    <string name="menu_newClient">nouveau client</string>
+    <string name="menu_newReleve">nouveau relevé</string>
+    <string name="menu_afficher">Afficher</string>
+    <string name="menu_listeClients">liste clients</string>
+    <string name="menu_listeReleves">liste releves</string>
+    <string name="saisieHP">compteur Heure Pleine</string>
+    <string name="saisieHC">compteur Heure Creuse</string>
+    <string name="bouton1">Normal</string>
+    <string name="bouton2">Emménagement</string>
+    <string name="bouton3">Changement</string>
+    <string name="btnEnregistrer">Enregistrer</string>
+    <string name="cpt">RELEVE DE COMPTEUR</string>
+    <string name="numCpt">numéro compteur</string>
+    <string name="btnAnnuler">Annuler</string>
+    <string name="recapitulatifUnReleve">Récapitulatif du relevé</string>
+    <string name="quitterafficheunreleve">Retour</string>
+    <string name="textEmail">email</string>
+    <string name="textPostalAdresse">adresse complète</string>
+    <string name="editTextPhone">téléphone</string>
+    <string name="btnNewClient">Enregistrer</string>
+    <string name="btnQuitterNewClient">Quitter</string>
+    <string name="titreNewClient">ENREGISTRER NOUVEAU CLIENT</string>
+    <string name="editTextName">Nom et prénom</string>
+    <string name="btnValiderNewRelever">Valider</string>
+    <string name="btnQuitterListeClient">Quitter</string>
+    <string name="titreListeClients">LISTE DES CLIENTS</string>
+    <string name="textViewNomPrenom">Nom Prénom</string>
+    <string name="textViewEmail">Email</string>
+    <string name="textViewAdresse">Adresse</string>
+    <string name="textViewTel">Tel</string>
+    <string name="textViewNumcpt">Numéro compteur</string>
+    <string name="textViewHP">Heure pleine</string>
+    <string name="textViewHC">Heure Creuse</string>
+    <string name="menu_supprimer">Supprimer</string>
+    <string name="menu_supprimerClient">Supprimer un client</string>
+    <string name="menu_supprimerReleve">supprimer un relevé</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="btnQuitterAfficheUnClient">Retour menu</string>
+    <string name="btnModifierUnClient">Modifier le client</string>
+    <string name="btnSupprimerUnClient">Supprimer le client</string>
+    <string name="btnEnregistrerModifClient">Enregistrer modification client</string>
+</resources>

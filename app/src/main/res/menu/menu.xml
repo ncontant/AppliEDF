@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_saisir"
+        android:title="@string/menu_saisir">
+        <menu>
+            <item
+                android:id="@+id/menu_newClient"
+                android:title="@string/menu_newClient">
+            </item>
+            <item
+                android:id="@+id/menu_newReleve"
+                android:title="@string/menu_newReleve">
+            </item>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/menu_afficher"
+        android:title="@string/menu_afficher">
+        <menu >
+            <item
+                android:id="@+id/menu_listeClients"
+                android:title="@string/menu_listeClients">
+            </item>
+            <item
+                android:id="@+id/menu_listeReleves"
+                android:title="@string/menu_listeReleves">
+            </item>
+        </menu>
+    </item>
+
+
+</menu>
