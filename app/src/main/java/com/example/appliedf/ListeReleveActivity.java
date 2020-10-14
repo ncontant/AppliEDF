@@ -1,8 +1,11 @@
 package com.example.appliedf;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
@@ -30,8 +33,22 @@ public class ListeReleveActivity extends Activity {
         listViewReleves.setAdapter(dataAdapter);
         //on ferme la table
         releveBdd.close();
+    // quand on selectionne un item
+        listViewReleves.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                finish();
+                startViewUnReleveActivity(id);
+            }
+        });
 
     }
+    private void startViewUnReleveActivity(long releveId){
+        Intent intent=new Intent(this, UnReleveActivity.class);
+        intent.putExtra("RELEVE_ID",releveId);
+        startActivity(intent);
+    }
+
 }
 
 

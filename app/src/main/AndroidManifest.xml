@@ -22,6 +22,7 @@
         <activity android:name=".ListeReleveActivity"></activity>
         <activity android:name=".ListeClientsActivity"></activity>
         <activity android:name=".UnClientActivity"></activity>
+        <activity android:name=".UnReleveActivity"></activity>
     </application>
 
 </manifest>
